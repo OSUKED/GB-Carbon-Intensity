@@ -1,0 +1,23 @@
+name: gbco2
+
+channels:
+  - conda-forge
+  
+dependencies:
+  - python>=3.7
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - seaborn
+  - tqdm
+  - dask
+  - xarray
+  - python-dotenv
+  - jinja2
+  - pip
+  
+  - pip:
+#      - -e .
+      - nbdev
+      - feautils
+      - CIDataPortal
